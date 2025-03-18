@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/* 
+    Paleta de cores
+    Verde: #49a09d
+    Lilás: #5f2c82
+*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: blueviolet;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    border-radius: 20px;
+    width: 250px;
+    height: 515px;
+}
+
+section#login > div#imagem {
+    background-image:  url(../imagens/metal.jpg);
+    display: block;
+    background-size: cover;
+    background-position: left bottom;
+    height: 200px;
+}
+
+div#formulario {
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+label {
+    display: none;
+}
+
+div#formulario > h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+div#formulario > p {
+    padding-bottom: 10px;
+    font-size: 0.9em;
+}
+
+div.campo {
+    padding: 10px;
+    width: 100%;
+}
+
+div.campo > input {
+    height: 35px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+div.btn > input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
