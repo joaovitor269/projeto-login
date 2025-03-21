@@ -78,7 +78,7 @@ form > div.campo {
     border-radius: 10px;
 }
 
-span.material-symbols-outlined {
+span.material-icons {
     width: 40px;
     color: white;
     font-size: 1.9em;
@@ -127,11 +127,10 @@ form > a.botao {
     font-size: 1em;
 }
 
-span#email {
-    color: black;
-    display: inline-block;
-    width: 1px;
-    height: 2px;
+form > a.botao > span {
+    font-size: 0.8em;
+    color: #235755;
+    margin: -10px;
 }
 
 form > a.botao:hover {
